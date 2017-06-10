@@ -1,7 +1,7 @@
 # SNP_primer_design
 SNP_asssay_design.py takes one argument in the command line. This argument should be a text file with each line being a SNP rs number.
 Example:
-
+#
 rs1065852
 
 rs1135840
@@ -11,7 +11,7 @@ rs16947
 rs28371706
 
 rs9923231
-
+#
 query_dbSNP(filename)
 
 The first function (above) querys the dbSNP database for each rs number. It writes out a fasta a multiple fasta file with the same 
