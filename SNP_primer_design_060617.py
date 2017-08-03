@@ -15,11 +15,10 @@ def query_dbSNP(file_in):
 			snp_query = urllib2.urlopen(url)
 			snp_query_output = snp_query.read()
 			file_out.write(snp_query_output)
-	#file_out.close()
 	file_out.seek(0)
 	rs_list_fasta = file_out.read()
-	print 'type', type(rs_list_fasta)
-	print 'rs_list_fasta'+rs_list_fasta
+	#print 'type', type(rs_list_fasta)
+	#print 'rs_list_fasta'+rs_list_fasta
 	return rs_list_fasta, mixed_bases
 	file_out.close()
 
